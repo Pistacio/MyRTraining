@@ -1,3 +1,3 @@
 # MyRTraining
 
-This folder contains R codes for my own reference only.
+My Personal R codes for Training
