@@ -4,8 +4,8 @@ step 3: open Git Bash
 step 4: <git config --global user.name "YOUR NAME">
 step 5: <git config --global user.email "YOUR EMAIL ADDRESS">
 step 6: create a repository (from website) - make sure check "initialize this repository with README"
-step 7: go to the directory when to place the clone folder - <git clone https://github.com/tingcy/MyRTraining.git>
-step 8: go into the directory after cloning -> <cd MyRTraining>
+step 7: go to the directory in your computer to place the clone folder - e.g. my github repo is -- <git clone https://github.com/tingcy/MyRTraining.git>
+step 8: go into the directory you created after cloning -> <cd MyRTraining>
 step 9: list the content -> using command <ls>
 step 10: see README.md --> <vim README.md>
 step 11: add some texts to the the README.md file. To insert press "Insert" button.
