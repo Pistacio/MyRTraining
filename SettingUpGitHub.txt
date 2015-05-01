@@ -1,0 +1,39 @@
+step 1: go to GitHub to create account (https://github.com)
+step 2: download Git (http://git-scm.com)  
+step 3: open Git Bash
+step 4: <git config --global user.name "YOUR NAME">
+step 5: <git config --global user.email "YOUR EMAIL ADDRESS">
+step 6: create a repository (from website) - make sure check "initialize this repository with README"
+step 7: go to the directory when to place the clone folder - <git clone https://github.com/tingcy/MyRTraining.git>
+step 8: go into the directory after cloning -> <cd MyRTraining>
+step 9: list the content -> using command <ls>
+step 10: see README.md --> <vim README.md>
+step 11: add some texts to the the README.md file. To insert press "Insert" button.
+step 12: make sure you press "ESC" to stop inserting. 
+step 13: to save and exit -> type ":x" and then press enter; to quit without saving type ":q"
+step 14: <git status> - check the status - whether modify or not. the red colour shows some files have been modified.
+step 15: <git add README.md>
+step 16: <git commit -m "update on 27/4">
+step 17: <git log> - check the log
+step 18: <git push -u origin master> -- put in user name and password
+step 19: Refresh github website
+
+======= create and upload new file=================
+
+step 19: create new file to local directory - <touch R_notes.txt>
+step 20: edit the file --> <vim R_notes.txt>
+step 22: add file -- <git add .>
+step 22: push file -- <git push>
+step 23: refresh github website to see changes.
+
+
+==========remove local repository ==================
+
+remove directory -- <rm -rf directoryname>
+
+
+========== to remove a file from BOTH local and github server======
+
+    --> <git rm test.txt>
+    --> <git commit -m "remove file test.txt"
+    --> <git push> + username + password
